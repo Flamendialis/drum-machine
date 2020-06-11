@@ -9,19 +9,19 @@ const PADS = [
   {
       pad: 0, 
       key: 'Q',
-      description: 'Chord-A',
+      description: 'Chord-I',
       url:'https://s3.amazonaws.com/freecodecamp/drums/Chord_1.mp3'
   },
   {
       pad: 1,
       key: 'W',
-      description: 'Chord-B',
+      description: 'Chord-II',
       url:'https://s3.amazonaws.com/freecodecamp/drums/Chord_2.mp3'
   },
   {
       pad: 2,
       key: 'E',
-      description: 'Chord-C',
+      description: 'Chord-III',
       url:'https://s3.amazonaws.com/freecodecamp/drums/Chord_3.mp3'
   },
   {

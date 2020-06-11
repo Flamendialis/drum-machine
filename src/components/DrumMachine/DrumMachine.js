@@ -28,7 +28,7 @@ class Pad extends React.Component {
 
     render(){
         return (
-            <div className='drum-pad' onClick={this.playSound}>{this.props.keyName}
+            <div className='drum-pad' id={this.props.description} onClick={this.playSound}>{this.props.keyName}
                 <audio className="clip" id={this.props.keyName} src={this.props.url}>
                 </audio>
             </div>
